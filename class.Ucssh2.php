@@ -88,8 +88,8 @@
                                 	if($status){
                                         	$Msg[$i]['status'] = "Upload ".$filename." to ".$value['hostIp']." successfully...";
                                 	}else{
-											$this->failList[$value['hostIp']]['id']           = $value['id'];
-											$this->failList[$value['hostIp']]['id']           = $filename;
+						$this->failList[$value['hostIp']]['id']           = $value['id'];
+						$this->failList[$value['hostIp']]['id']           = $filename;
                                         	$this->failList[$value['hostIp']]['hostIp']       = $value['hostIp'];
                                         	$this->failList[$value['hostIp']]['hostUser']     = $value['hostUser'];
                                         	$this->failList[$value['hostIp']]['hostPWD']      = $this->hostInfo[$value['hostIp']]['hostPWD'];
